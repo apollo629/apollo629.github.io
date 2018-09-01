@@ -8,9 +8,12 @@ google_analytics:
 show_downloads: true
 theme: jekyll-theme-tactile
 
-gems:
-  - jekyll-mentions
-
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+sass:
+  style: compressed
 
 defaults:
   -
@@ -25,3 +28,17 @@ defaults:
       type: "pages"
     values:
       layout: "base"
+
+about:
+  - name: Github
+    username: apollo629
+    url: https://github.com/apollo629
+    class: github
+  - name: Twitter
+    username: alpereninall
+    url: https://twitter.com/alpereninall
+    class: twitter
+  - name: Email
+    username: inal.alperen@gmail.com
+    class: email
+    url: mailto:inal.alperen@gmail.com
